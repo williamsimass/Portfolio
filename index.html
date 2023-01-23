@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    
+    <title>Portfólio William Simas</title>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./imagens/logo.png" alt="" width="100%" height="30"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Proj">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#container-contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container">
+  <div id="titulo-portfolio">
+  <h3 id="titulo"></h3> 
+  <p id="subtitulo"> </p>
+</div>
+  <img src="./imagens/perfil.jpg" alt="Foto de William Simas" class="fade-in" id="foto" width="">
+</div>
+<section id="Sobre">
+<div id="container-sobre">
+  
+  <div id="habilidades">
+    <h4>Minhas habilidades</h4>
+    <ul>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+      </li>
+    </ul>
+  </div>
+  <div id="sobrem">
+    <h4 id="sobre"></h4>
+    <p id="sobreeu"></p>
+  </div>
+</div>
+</section>
+<div id="Proj" class="title"><h2>Projetos</h2></div>
+<section id="Projetos"> 
+    <div class="card" style="width: 18rem;">
+    <img src="./imagens/login.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tela de Login</h5>
+      <p class="card-text">Tela de Login feita completamente em HTML & CSS.</p>
+      <a href="https://williamssdev.github.io/tela-login/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/landing.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Landing Page Cont</h5>
+      <p class="card-text">Landing Page criada com HTML & CSS para divulgação de trabalhos.</p>
+      <a href="https://williamssdev.github.io/Landing-Page-Contabil/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/netflix.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Clone Netflix</h5>
+      <p class="card-text">Clone Netflix feita em HTML | CSS & Jquery, feita por exercício feito no curso que estou fazendo.</p>
+      <a href="https://williamssdev.github.io/PagInicialNetflix/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/form.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Formulário</h5>
+      <p class="card-text">Formulário de cadastro feito em HTML | CSS e com banco de dados MySQL com ligação PHP para projeto de captura de informações.</p>
+      <a href="https://williamssdev.github.io/Form/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+</section>
+<section id="container-contato">
+  <div class="form">
+    <h2>Contato</h2>
+    <div class="form-col">
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Seu Nome" autocomplete="off">
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Digite Seu E-mail" autocomplete="off">
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="4" placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <button type="submit" id="submit-btn">Enviar</button>
+        <input type="hidden" name="accessKey" value="8bf31c07-86c7-43a9-9389-db3545fcaced">
+        <input type="hidden" name="redirectTo" value="https://williamssdev.github.io/Portfolio/">
+      </form>
+      <div id="alert-box" class="hidden">E-mail enviado com sucesso!</div>
+    </div>
+  </div>
+</section>
+
+<div id="contato-info">
+  <h5>Me encontre nas redes sociais:</h5> <br>
+  <a href="https://t.me/uWillos" target="_blank"><i class="fa-brands fa-telegram"></i>Telegram</a>
+  <a href="https://instagram.com/william.mss16" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+  <a href="https://api.whatsapp.com/send/?phone=5571991333879&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+</div>
+
+
+
+<div class="footer">
+  <footer>
+  Todos os direitos reservados. © William Simas.</footer>
+</div>
+
+    <script src="https://kit.fontawesome.com/a91b680d9c.js" crossorigin="anonymous"></script>
+    <script src="path/to/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
