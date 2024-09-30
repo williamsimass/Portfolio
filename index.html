@@ -1,181 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <!-- my css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/jarallax.css">
-
-    <title>Padlabs - Website Portfolio Bayu Adi Pramana</title>
-    <link rel="shortcut icon" type="image/jpg" href="assets/favicon/logo.jpg"/>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <!-- Brand -->
-        <a class="navbar-brand" href="https://gustibagusbayu.github.io/"><img class="logopad" src="assets/icon/logopad.png" alt="logo"></a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <div class="navbar-toggler collapsed" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+    
+    <title>Portfólio William Simas</title>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./imagens/logo.png" alt="" width="100%" height="30"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Proj">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#container-contato">Contato</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Navbar End -->
+    </div>
+  </nav>
+  
+  <div class="container">
+  <div id="titulo-portfolio">
+  <h3 id="titulo"></h3> 
+  <p id="subtitulo"> </p>
+</div>
+  <img src="./imagens/perfil.jpg" alt="Foto de William Simas" class="fade-in" id="foto" width="">
+</div>
+<section id="Sobre">
+<div id="container-sobre">
+  
+  <div id="habilidades">
+    <h4>Minhas habilidades</h4>
+    <ul>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" />
+      </li>
+      <li>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+      </li>
+    </ul>
+  </div>
+  <div id="sobrem">
+    <h4 id="sobre"></h4>
+    <p id="sobreeu"></p>
+  </div>
+</div>
+</section>
+<div id="Proj" class="title"><h2>Projetos</h2></div>
+<section id="Projetos"> 
+    <div class="card" style="width: 18rem;">
+    <img src="./imagens/login.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tela de Login</h5>
+      <p class="card-text">Tela de Login feita completamente em HTML & CSS.</p>
+      <a href="https://williamssdev.github.io/tela-login/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/landing.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Landing Page Cont</h5>
+      <p class="card-text">Landing Page criada com HTML & CSS para divulgação de trabalhos.</p>
+      <a href="https://williamssdev.github.io/Landing-Page-Contabil/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/netflix.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Clone Netflix</h5>
+      <p class="card-text">Clone Netflix feita em HTML | CSS & Jquery, feita por exercício feito no curso que estou fazendo.</p>
+      <a href="https://williamssdev.github.io/PagInicialNetflix/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagens/form.PNG" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Formulário</h5>
+      <p class="card-text">Formulário de cadastro feito em HTML | CSS e com banco de dados MySQL com ligação PHP para projeto de captura de informações.</p>
+      <a href="https://williamssdev.github.io/Form/" class="btn btn-primary">Visite Aqui</a>
+    </div>
+  </div>
+</section>
+<section id="container-contato">
+  <div class="form">
+    <h2>Contato</h2>
+    <div class="form-col">
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Seu Nome" autocomplete="off">
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Digite Seu E-mail" autocomplete="off">
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="4" placeholder="Digite sua mensagem"></textarea>
+        <br>
+        <button type="submit" id="submit-btn">Enviar</button>
+        <input type="hidden" name="accessKey" value="8bf31c07-86c7-43a9-9389-db3545fcaced">
+        <input type="hidden" name="redirectTo" value="https://williamssdev.github.io/Portfolio/">
+      </form>
+      <div id="alert-box" class="hidden">E-mail enviado com sucesso!</div>
+    </div>
+  </div>
+</section>
 
-    <!-- Home Page Section -->
-    <section class="home" id="home">
-      <div class="container">
-        <div class="row d-flex align-items-center">
-          <div class="col-md-5">
-            <div class="home_photo text-center">
-              <img src="assets/images/photo.png" alt="photo">
-              <div class="circle"></div>
-            </div>
-          </div>
-          <div class="col-md-7">
-            <div class="home_intro">
-              <h2>Hi, i'm Bayu Adi Pramana</h2>
-              <h1>UI Designer & Front End Developer</h1>
-              <p>I'm from Bali and I have been focus learning programming since 2017 when I'm studying in College and I'm also learning design since 2015. If you want ask something about me, just contact me on my social media bellow.</p>
-              <div class="home_social">
-                <a href="https://www.instagram.com/padlabs.id/"><img src="assets/icon/instagram.svg" alt="instagram"></a>
-                <a href="https://www.linkedin.com/in/i-gst-bgs-bayu-adi-pramana-068853198"><img src="assets/icon/linkedin.svg" alt="linkedin"></a>
-                <a href="https://github.com/gustibagusbayu"><img src="assets/icon/github.svg" alt="github"></a>
-                <a href="https://medium.com/@gustibgsbayu"><img src="assets/icon/medium.svg" alt="medium"></a>
-                <a href="https://www.youtube.com/channel/UCKb4EYJ1qFr3PW0NEEwPkuQ"><img src="assets/icon/youtube.svg" alt="youtube"></a>
-                <a href="https://www.behance.net/gustibagusbayu"><img src="assets/icon/behance.svg" alt="behance"></a>
-                <a href="https://dribbble.com/Bayuadi"><img src="assets/icon/dribbble.svg" alt="dribbble"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Home Page Section -->
+<div id="contato-info">
+  <h5>Me encontre nas redes sociais:</h5> <br>
+  <a href="https://t.me/uWillos" target="_blank"><i class="fa-brands fa-telegram"></i>Telegram</a>
+  <a href="https://instagram.com/william.mss16" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+  <a href="https://api.whatsapp.com/send/?phone=5571991333879&text&type=phone_number&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+</div>
 
-    <!-- Project Section -->
-    <section class="project" id="project">
-      <div class="container">
-        <div class="row">
-          <h1>Selected Projects</h1>
-          <div class="line"></div>
-          <div class="foodApp">
-            <img src="assets/images/food app.jpg" alt="food app">
-            <img class="component1" data-jarallax-element="100 250" src="assets/components/mobile_app_design.svg" alt="mobile app design">
-          </div>
-          <div class="furniture">
-            <img src="assets/images/furniture.jpg" alt="furniture">
-            <a target="_blank" href="https://gustibagusbayu.github.io/Furniture-order-websites/"><p>See <br>Web Pages</p></a>
-            <img class="component2" data-jarallax-element="-100 -250" src="assets/components/mobile_app_design.svg" alt="mobile app design">
-          </div>
-          <div class="expertSystem">
-            <img src="assets/images/expert system.jpg" alt="expert system">
-            <div class="description1"></div>
-            <p>Build expert<br>system website<br>with php native<br>and bootstrap.</p>
-            <img class="component3" data-jarallax-element="100 150" src="assets/components/web_programming.svg" alt="web programming">
-          </div>
-          <div class="machineLearning">
-            <img src="assets/images/machine learning.jpg" alt="machine learning">
-            <div class="description2"></div>
-            <p>Build machine<br>learning website<br>with django<br>and bootstrap<br>(Classification &<br>Clustering).</p>
-            <img class="component4" data-jarallax-element="-100 -150" src="assets/components/web_programming.svg" alt="web programming">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Project Section -->
 
-    <!-- Tools and Skills section -->
-    <section class="skills" id="skills">
-      <div class="container">
-        <div class="row">
-          <h1>Tools & Skills</h1>
-          <div class="line"></div>
-          <div class="programming text-center">
-            <img src="assets/icon/html.svg" alt="html">
-            <img src="assets/icon/css.svg" alt="css">
-            <img src="assets/icon/javascript.svg" alt="javascript">
-            <img src="assets/icon/python.svg" alt="python">
-            <img src="assets/icon/php.svg" alt="php">
-            <img src="assets/icon/bootstrap.svg" alt="bootstrap">
-            <img src="assets/icon/django.svg" alt="django">
-            <img class="mysql" src="assets/icon/mysql.svg" alt="mysql">
-          </div>
-          <div class="design text-center">
-            <img src="assets/icon/photoshop.svg" alt="photoshop">
-            <img src="assets/icon/illustrator.svg" alt="illustrator">
-            <img class="figma" src="assets/icon/figma.svg" alt="figma">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Tools and Skills section -->
 
-    <!-- Get In Touch Section -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="row">
-          <h1>Get in touch</h1>
-          <div class="line"></div>
-          <p class="desc">For <span>hiring</span>, <span>business</span>, or <span>collaboration</span> please contact me via email <span>gustibgsbayu@gmail.com</span> or <span><a href="">Linkedin.</a></span></p>
-          <div class="contact_social">
-            <a href="https://www.instagram.com/padlabs.id/"><img src="assets/icon/instagram.svg" alt="instagram"></a>
-            <a href="https://www.linkedin.com/in/i-gst-bgs-bayu-adi-pramana-068853198"><img src="assets/icon/linkedin.svg" alt="linkedin"></a>
-            <a href="https://github.com/gustibagusbayu"><img src="assets/icon/github.svg" alt="github"></a>
-            <a href="https://medium.com/@gustibgsbayu"><img src="assets/icon/medium.svg" alt="medium"></a>
-            <a href="https://www.youtube.com/channel/UCKb4EYJ1qFr3PW0NEEwPkuQ"><img src="assets/icon/youtube.svg" alt="youtube"></a>
-            <a href="https://www.behance.net/gustibagusbayu"><img src="assets/icon/behance.svg" alt="behance"></a>
-            <a href="https://dribbble.com/Bayuadi"><img src="assets/icon/dribbble.svg" alt="dribbble"></a>
-            <img class="signed_logo" src="assets/components/logopad.svg" alt="logo sign">
-          </div>
-          <div class="copyright">
-            <p>padlabs &#169; 2021</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Get In Touch Section -->
+<div class="footer">
+  <footer>
+  Todos os direitos reservados. © William Simas.</footer>
+</div>
 
-    <!-- Scripts -->
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/jarallax.js"></script>
-    <script src="js/jarallax-element.js"></script>
-    <!-- End Scripts -->
-
-  </body>
+    <script src="https://kit.fontawesome.com/a91b680d9c.js" crossorigin="anonymous"></script>
+    <script src="path/to/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
 </html>
